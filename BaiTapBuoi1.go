@@ -174,11 +174,11 @@ func main() {
 	fmt.Println("\nBÀI TẬP MảNG")
 	arr := []int{3, 5, 7, 2, 8}
 	max, min := findMaxAndMin(arr)
-	fmt.Println("Giá trị lớn nhất và nhỏ nhất trong mảng:", max, min)
-	fmt.Println("Sắp xếp mảng:", sortArray([]int{5, 3, 8, 4, 2}))
-	fmt.Println("Số lần xuất hiện của 2 trong mảng:", countOccurrences([]int{1, 2, 3, 2, 2, 4}, 2))
-	fmt.Println("Xóa phần tử 2 khỏi mảng:", removeElement([]int{1, 2, 3, 4}, 2))
-	fmt.Println("Gộp hai mảng:", mergeArrays([]int{1, 2}, []int{3, 4}))
+	fmt.Println("Giá trị lớn nhất và nhỏ nhất trong mảng [3, 5, 7, 2, 8]: ", max, min)
+	fmt.Println("Sắp xếp mảng [5, 3, 8, 4, 2]: ", sortArray([]int{5, 3, 8, 4, 2}))
+	fmt.Println("Số lần xuất hiện của 2 trong mảng: ", countOccurrences([]int{1, 2, 3, 2, 2, 4}, 2))
+	fmt.Println("Xóa phần tử 2 khỏi mảng: ", removeElement([]int{1, 2, 3, 4}, 2))
+	fmt.Println("Gộp hai mảng [1,3] và [2,4]: ", mergeArrays([]int{1, 3}, []int{2, 4}))
 
 	fmt.Println("\n")
 }
